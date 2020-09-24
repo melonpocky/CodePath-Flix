@@ -29,8 +29,8 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### Notes
 Describe any challenges encountered while building the app.
-Keeping track of classes and libraries. I had to refactor the Movie class from movies due to the confusion. I also had to establish an import for one of my MainActivity.java functions so no errors show up  movies.addAll(com.example.flixster.models.Movie.fromJsonArray(results)); I couldn't use movies.addAll(Movie.fromJsonArray(results));
-
+- Keeping track of classes and libraries. I had to refactor the Movie class from movies due to the confusion. I also had to establish an import for one of my MainActivity.java functions so no errors show up  movies.addAll(com.example.flixster.models.Movie.fromJsonArray(results)); I couldn't use movies.addAll(Movie.fromJsonArray(results));
+- I had difficulties with creating the MyAppGlideModule and there would be an error because of the @GlideModule. I tried fixing but I couldn't, something about interfaces.  
 
 ### Open-source libraries used
 
